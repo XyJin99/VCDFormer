@@ -21,31 +21,26 @@ Please download our dataset in
 You can also train your dataset following the directory structure below!
  
 ### Data directory structure
-Dataset--  
-&emsp;|&ensp;train--  
-&emsp;&emsp;|&ensp;cloud---  
-&emsp;&emsp;&emsp;| 000  
-&emsp;&emsp;&emsp;|&ensp; 00000000.png  
-&emsp;&emsp;&emsp;|&ensp; ....png  
-&emsp;&emsp;&emsp;|&ensp; 00000099.png  
-&emsp;&emsp;&emsp;| ···  
-&emsp;&emsp;&emsp;| 188  
+train--  
+&emsp;|&ensp;cloud--  
+&emsp;&emsp;|&ensp;SCENE 000---  
+&emsp;&emsp;&emsp;| 00000000.png  
+&emsp;&emsp;&emsp;| ···.png  
+&emsp;&emsp;&emsp;| 00000099.png     
+&emsp;&emsp;|&ensp;SCENE N--- 
+&emsp;|&ensp;mask--  
 
-&emsp;&emsp;|&ensp;mask---  
+eval--  
+&emsp;|&ensp;cloud--  
+&emsp;&emsp;|&ensp;SCENE 000---  
+&emsp;&emsp;&emsp;| 00000000.png  
+&emsp;&emsp;&emsp;| ···.png  
+&emsp;&emsp;&emsp;| 00000099.png    
+&emsp;&emsp;|&ensp;SCENE N--- 
+&emsp;|&ensp;mask--  
 
-&emsp;|&ensp;eval--  
-&emsp;&emsp;|&ensp;cloud---  
-&emsp;&emsp;&emsp;| 000 
-&emsp;&emsp;&emsp;&emsp;| 00000000.png
-&emsp;&emsp;&emsp;&emsp;| ....png
-&emsp;&emsp;&emsp;&emsp;| 00000099.png
-&emsp;&emsp;&emsp;| ···  
-&emsp;&emsp;&emsp;| 017
-
-&emsp;&emsp;|&ensp;mask---
-
-&emsp;|&ensp;realtest--  
-&emsp;&emsp;|&ensp;cloud--- 
+realtest--  
+&emsp;|&ensp;cloud--  
 
 ## Training
 ```
