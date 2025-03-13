@@ -1,7 +1,7 @@
 # VCDFormer (JAG 2025)
-### 📖[**Paper**]() | 🖼️[**PDF**]() | 🎁[**Dataset**]()
+### 📖[**Paper**](TODO) | 🖼️[**PDF**](TODO) | 🎁[**Dataset**](TODO)
 
-PyTorch codes for "[VCDFormer: Investigating Cloud Detection Approaches in Sub-Second-Level Satellite Videos]()", **International Journal of Applied Earth Observation and Geoinformation (JAG)**, 2025.
+PyTorch codes for "[VCDFormer: Investigating Cloud Detection Approaches in Sub-Second-Level Satellite Videos](TODO)", **International Journal of Applied Earth Observation and Geoinformation (JAG)**, 2025.
 
 Authors: Xianyu Jin, [Jiang He*](https://jianghe96.github.io/), [Yi Xiao](https://xy-boy.github.io/), Ziyang Lihe, Jie Li, and Qiangqiang Yuan*<br>
 Wuhan University and Technical University of Munich
@@ -58,9 +58,9 @@ python test.py
 ```
 
 ### Quantitative results
- ![image](/img/res1png.png)
+ ![image](/figures/quantitative.png)
 ### Qualitative results
- ![image](/img/res2.png)
+ ![image](/figures/qualitative.png)
 #### More details can be found in our paper!
 
 
