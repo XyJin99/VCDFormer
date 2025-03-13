@@ -27,7 +27,7 @@ train--
 &emsp;&emsp;&emsp;| 00000000.png  
 &emsp;&emsp;&emsp;| ···.png  
 &emsp;&emsp;&emsp;| 00000099.png     
-&emsp;&emsp;|&ensp;SCENE N--- 
+&emsp;&emsp;|&ensp;SCENE N---  
 &emsp;|&ensp;mask--  
 
 eval--  
@@ -36,7 +36,7 @@ eval--
 &emsp;&emsp;&emsp;| 00000000.png  
 &emsp;&emsp;&emsp;| ···.png  
 &emsp;&emsp;&emsp;| 00000099.png    
-&emsp;&emsp;|&ensp;SCENE N--- 
+&emsp;&emsp;|&ensp;SCENE N---  
 &emsp;|&ensp;mask--  
 
 realtest--  
