@@ -3,7 +3,7 @@
 
 PyTorch codes for "[VCDFormer: Investigating Cloud Detection Approaches in Sub-Second-Level Satellite Videos]()", **International Journal of Applied Earth Observation and Geoinformation (JAG)**, 2025.
 
-Authors: [Xianyu Jin](), [Jiang He*](https://jianghe96.github.io/), [Yi Xiao](https://xy-boy.github.io/), [Ziyang Lihe](), [Jie Li](), and [Qiangqiang Yuan*]()<br>
+Authors: [Xianyu Jin], [Jiang He*](https://jianghe96.github.io/), [Yi Xiao](https://xy-boy.github.io/), [Ziyang Lihe], [Jie Li], and [Qiangqiang Yuan*]<br>
 Wuhan University and Technical University of Munich
 
 ### Abstract
@@ -24,14 +24,14 @@ You can also train your dataset following the directory structure below!
 Dataset--  
 &emsp;|&ensp;train--  
 &emsp;&emsp;|&ensp;cloud---  
-&emsp;&emsp;&emsp;| 000 
-&emsp;&emsp;&emsp;&emsp;| 00000000.png
-&emsp;&emsp;&emsp;&emsp;| ....png
-&emsp;&emsp;&emsp;&emsp;| 00000099.png
+&emsp;&emsp;&emsp;| 000  
+&emsp;&emsp;&emsp;|&ensp; 00000000.png  
+&emsp;&emsp;&emsp;|&ensp; ....png  
+&emsp;&emsp;&emsp;|&ensp; 00000099.png  
 &emsp;&emsp;&emsp;| ···  
-&emsp;&emsp;&emsp;| 188
+&emsp;&emsp;&emsp;| 188  
 
-&emsp;&emsp;|&ensp;mask---
+&emsp;&emsp;|&ensp;mask---  
 
 &emsp;|&ensp;eval--  
 &emsp;&emsp;|&ensp;cloud---  
