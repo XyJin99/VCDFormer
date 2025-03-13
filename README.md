@@ -7,7 +7,7 @@ Authors: [Xianyu Jin](), [Jiang He*](https://jianghe96.github.io/), [Yi Xiao](ht
 Wuhan University and Technical University of Munich
 
 ### Abstract
->Satellite video, as an emerging data source for Earth observation, enables dynamic monitoring and has wide-ranging applications in diverse fields. Nevertheless, cloud occlusion hinders the ability of satellite video to provide uninterrupted monitoring of the Earth’s surface. To mitigate the interference of clouds, cloud-free areas need to be selected before application, or an optimized solution like a cloud removal algorithm can be utilized to recover the occluded regions, both of which inherently demand the precise detection of clouds. However, no existing methods are capable of robust cloud detection in satellite videos. We propose the first sub-second-level satellite video cloud detection model VCDFormer to handle this problem. In VCDFormer, a spatialtemporal-enhanced transformer consisting of a local spatial-temporal reconfiguration block and a spatial-enhanced block is introduced to explore global spatial-temporal correspondence efficiently. Additionally, we construct WHU-VCD, the first sub-second-level synthetic dataset specifically designed to capture the more realistic motion characteristics of both thick and thin clouds in satellite videos. Compared to the state-of-the-art cloud detection methods, VCDFormer achieves an approximate 10–15% improvement in the IoU metric and a 5–8% increase in the F1-Score on the simulated test set. Experimental evaluations on Jilin-1 satellite videos, involving both synthetic and real-world scenarios, demonstrate that our proposed VCDFormer achieves superior performance in satellite video cloud detection tasks. The source code is available at https://github.com/XyJin99/VCDFormer.
+>Satellite video, as an emerging data source for Earth observation, enables dynamic monitoring and has wide-ranging applications in diverse fields. Nevertheless, cloud occlusion hinders the ability of satellite video to provide uninterrupted monitoring of the Earth’s surface. To mitigate the interference of clouds, cloud-free areas need to be selected before application, or an optimized solution like a cloud removal algorithm can be utilized to recover the occluded regions, both of which inherently demand the precise detection of clouds. However, no existing methods are capable of robust cloud detection in satellite videos. We propose the first sub-second-level satellite video cloud detection model VCDFormer to handle this problem. In VCDFormer, a spatial-temporal-enhanced transformer consisting of a local spatial-temporal reconfiguration block and a spatial-enhanced block is introduced to explore global spatial-temporal correspondence efficiently. Additionally, we construct WHU-VCD, the first sub-second-level synthetic dataset specifically designed to capture the more realistic motion characteristics of both thick and thin clouds in satellite videos. Compared to the state-of-the-art cloud detection methods, VCDFormer achieves an approximate 10–15% improvement in the IoU metric and a 5–8% increase in the F1-Score on the simulated test set. Experimental evaluations on Jilin-1 satellite videos, involving both synthetic and real-world scenarios, demonstrate that our proposed VCDFormer achieves superior performance in satellite video cloud detection tasks. The source code is available at https://github.com/XyJin99/VCDFormer.
 
 ### Overall
  ![image](/figures/network.png)
@@ -30,6 +30,7 @@ Dataset--
 &emsp;&emsp;&emsp;&emsp;| 00000099.png
 &emsp;&emsp;&emsp;| ···  
 &emsp;&emsp;&emsp;| 188
+
 &emsp;&emsp;|&ensp;mask---
 
 &emsp;|&ensp;eval--  
@@ -40,6 +41,7 @@ Dataset--
 &emsp;&emsp;&emsp;&emsp;| 00000099.png
 &emsp;&emsp;&emsp;| ···  
 &emsp;&emsp;&emsp;| 017
+
 &emsp;&emsp;|&ensp;mask---
 
 &emsp;|&ensp;realtest--  
