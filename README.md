@@ -1,5 +1,5 @@
 # VCDFormer (JAG 2025)
-### 📖[**Paper**](TODO) | 🖼️[**PDF**](TODO) | 🎁[**Dataset**](TODO)
+### 📖[**Paper**](TODO) | 🖼️[**PDF**](TODO)
 
 PyTorch codes for "[VCDFormer: Investigating Cloud Detection Approaches in Sub-Second-Level Satellite Videos](TODO)", **International Journal of Applied Earth Observation and Geoinformation (JAG)**, 2025.
 
@@ -15,7 +15,7 @@ Wuhan University and Technical University of Munich
 ## Dataset Preparation
 We created a synthetic dataset named WHU-VCD based on the atmospheric scattering model with authentic cirrus cloud bands and satellite video scenes to simulate the motion characteristics of both thick and thin clouds in sub-second-level satellite videos.
 Please download our dataset in 
- * Baidu Netdisk [WHU-VCD]() Code:
+ * Baidu Netdisk [WHU-VCD](https://pan.baidu.com/s/1pDS0P5Nj9kimVYE72geu-A) Code: 5nhm
  * Zenodo: TODO
 
 You can also train your dataset following the directory structure below!
