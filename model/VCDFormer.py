@@ -372,15 +372,3 @@ class VCDNet(nn.Module):
         output = self.decoder(out)
         return output
 
-if __name__ == '__main__':
-    import time
-    model = VCDNet()
-    model.eval()
-    b = 1
-    input = torch.randn([b, 5, 3, 320, 320])
-    t1 = time.time()
-    output = model(input)
-    print(time.time()-t1)
-    print(output.shape)
-    print("Model size: {:.5f}M".format(sum(p.numel() for p in model.parameters()) / 1e6))
-
