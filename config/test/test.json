@@ -1,0 +1,17 @@
+{
+    "gpu_devices": "1",
+    "seed": 1234,
+    "name": "real_exp_test10_s320",
+    "modelpath": "experiments/VCDFormer.pth",
+    "test_data_loader": {
+        "dirpath": "/dataset/realtest",
+        "filepath": "config/test/WHU-VCD-realtest.json",
+        "w": 320,
+        "h": 320,
+        "local_stride": 10,
+        "save_results" : 1
+    },
+    "model": {
+        "net": "VCDFormer"
+    }
+}

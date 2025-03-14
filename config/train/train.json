@@ -1,0 +1,49 @@
+{
+    "gpu_devices": "0",
+    "seed": 1234,
+    "name": "VCDFormer_s512_stride1_b2",
+    "train_data_loader": {
+        "dirpath": "dataset/train",
+        "filepath": "config/train/WHU-VCD-train.json",
+        "w": 512,
+        "h": 512,
+        "local_stride": 1,
+        "num_ref_frames": 0
+    },
+    "test_data_loader": {
+        "dirpath": "dataset/eval",
+        "filepath": "config/eval/WHU-VCD-eval.json",
+        "w": 320,
+        "h": 320,
+        "local_stride": 1,
+        "save_results" : 0
+    },
+    "losses": {
+        "bce_weight": 1,
+        "iou_weight": 1
+    },
+    "model": {
+        "net": "VCDFormer"
+    },
+    "trainer": {
+        "type": "Adam",
+        "beta1": 0.9,
+        "beta2": 0.999,
+        "lr": 2e-4,
+        "batch_size": 2,
+        "num_workers": 8,
+        "log_freq": 100,
+        "save_freq": 5e3,
+        "iterations": 15e4,
+        "data_enlarge": 100000,
+        "scheduler": {
+            "type": "CosineAnnealingLR",
+            "periods": 15e4,
+            "eta_min": 1e-7
+        },
+        "resume": 0,
+        "restore": 0,
+        "gen_path": "experiments/VCDFormer/weight/iter_95000.pth",
+        "opt_path": "experiments/VCDFormer/state/opt_95000.pth"
+    }
+}

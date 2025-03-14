@@ -1,0 +1,17 @@
+{
+    "gpu_devices": "1",
+    "seed": 1234,
+    "name": "eval_exp_test1_s320",
+    "modelpath": "experiments/VCDFormer.pth",
+    "test_data_loader": {
+        "dirpath": "/dataset/eval",
+        "filepath": "config/eval/WHU-VCD-eval.json",
+        "w": 320,
+        "h": 320,
+        "local_stride": 1,
+        "save_results" : 1
+    },
+    "model": {
+        "net": "VCDFormer"
+    }
+}
