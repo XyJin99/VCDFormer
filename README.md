@@ -42,17 +42,17 @@ eval--
 realtest--  
 &emsp;|&ensp;cloud--  
 
-## Training (pls modify your config before running)
+## Training
 ```
 python train.py --config=./config/train/train.json
 ```
 
-## Evaluation (pls modify your config before running)
+## Evaluation
 ```
 python eval.py --config=./config/eval/eval.json
 ```
 
-## Test (pls modify your config before running)
+## Test
 ```
 python test.py --config=./config/test/test.json
 ```
