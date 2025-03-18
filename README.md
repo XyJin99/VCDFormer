@@ -71,7 +71,15 @@ Email: jin_xy@whu.edu.cn
 ## Citation
 If you find our work useful in your research, we would appreciate your citation. 😊😊
 ```
-TODO
+@article{jin2025vcdformer,
+  title={VCDFormer: Investigating cloud detection approaches in sub-second-level satellite videos},
+  author={Jin, Xianyu and He, Jiang and Xiao, Yi and Lihe, Ziyang and Li, Jie and Yuan, Qiangqiang},
+  journal={International Journal of Applied Earth Observation and Geoinformation},
+  volume={138},
+  pages={104465},
+  year={2025},
+  publisher={Elsevier}
+}
 ```
 
 ## Acknowledgement
