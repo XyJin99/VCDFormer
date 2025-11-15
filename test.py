@@ -109,8 +109,7 @@ def main():
                 save_frame_path = os.path.join('results', config['name'], 'pic', video_name[0])
                 os.makedirs(save_frame_path, exist_ok=True)
                 for i, frame in enumerate(pre_masks):
-                    cv2.imwrite(os.path.join(save_frame_path, str(i).zfill(8) + '.png'),
-                                cv2.cvtColor((frame * 255.0).astype(np.uint8), cv2.IMREAD_GRAYSCALE))
+                    cv2.imwrite(os.path.join(save_frame_path, f"{i:08d}.png"), (frame * 255).astype(np.uint8))
 
     print('Finish test')
 
