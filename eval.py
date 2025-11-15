@@ -103,8 +103,8 @@ def main():
             curv_J, curv_F, curv_JFmean = [],[],[]
 
             for gt, pre in zip(labels, pre_masks):
-                J_score = jaccard.db_eval_iou(annotation=gt[:, :, 0], segmentation=pred[:, :, 0])
-                F_score = f_boundary.db_eval_boundary(foreground_mask=gt[:, :, 0], gt_mask=pred[:, :, 0])
+                J_score = jaccard.db_eval_iou(annotation=gt[:, :, 0], segmentation=pre[:, :, 0])
+                F_score = f_boundary.db_eval_boundary(foreground_mask=gt[:, :, 0], gt_mask=pre[:, :, 0])
                 JFmean = (J_score + F_score) / 2
 
                 curv_J.append(J_score)
